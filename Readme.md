@@ -22,26 +22,26 @@ updates efficiently.
 
 ## Screenshots
 
-**Main Menu**:
-![](src/screenshots/mainmenu.png "Main Application Menu")
+** Main Menu **
+<img src="src/screenshots/mainmenu.png" alt="Main Menu" width="800" height="450" />
 
-**Generate Bill Page**:
-![](src/screenshots/generatebill.png "Page for generating new bills")
+** Generate Bill **
+<img src="src/screenshots/generatebill.png" alt="Generate Bill" width="450" height="800" />
 
-**Discount Page**:
-![](src/screenshots/applydiscount.png "Page to apply discounts")
+** Discount **
+<img src="src/screenshots/applydiscount.png" alt="Discount" width="800" height="450" />
 
-**Fine Page**:
-![](src/screenshots/fine.png "Page to apply fines")
+** Fine **
+<img src="src/screenshots/fine.png" alt="Fine" width="800" height="450" />
 
-**Pay Bill Page**:
-![](src/screenshots/paybill.png "Page for bill payment")
+** Pay Bill **
+<img src="src/screenshots/paybill.png" alt="Pay Bill" width="800" height="450" />
 
-**Revenue Page**:
-![](src/screenshots/revenue.png "Page displaying revenue reports")
+** Revenue **
+<img src="src/screenshots/revenue.png" alt="Revenue" width="800" height="450" />
 
-**Update Taxes Page**:
-![](src/screenshots/taxes.png "Page for updating tax rates")")
+** Update Taxes **
+<img src="src/screenshots/taxes.png" alt="Update Taxes" width="800" height="450" />
 
 ## Project Structure
 ```
