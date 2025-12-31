@@ -150,10 +150,10 @@ updates efficiently.
     ">
        <strong>Generate Bill </strong>
       
-    </div>
+  </div>
   <img src="src/screenshots/generatebill.png" width="420" height="750">
   </div>
-</div>
+
 
 
 
