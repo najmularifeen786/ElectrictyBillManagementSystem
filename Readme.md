@@ -203,6 +203,30 @@ updates efficiently.
 - **Build Tool**: Maven
 - **OOP Concepts**: Encapsulation, Association, Inheritance, Enumeration
 
+# Demo4 JavaFX Project
+
+## Running the Project
+
+### Requirements
+- Java JDK installed (version 17 or higher recommended)
+- JavaFX library set up in your environment
+
+### Steps to Run
+1. Open a terminal and navigate to the project folder:
+   ```bash
+  cd path/to/project/src/main/java/com/example/demo4/
+  
+  
+## Compile the application
+'''bash
+javac --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml HelloApplication.java
+Replace /path/to/javafx/lib with the path where JavaFX is installed
+
+## Run the application
+'''bash
+java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml HelloApplication
+
+
 ## Contributing
 I welcome contributions to enhance Electrity Bill Management System. Here's how you can help:
 1. Fork the repository.
