@@ -37,7 +37,7 @@ updates efficiently.
       font-weight: bold;
       border-radius: 4px;
     ">
-       Main Menu <br>
+      <strong> Main Menu </strong>
     </div>
     <img src="src/screenshots/mainmenu.png" width="700" height="394">
   </div>
