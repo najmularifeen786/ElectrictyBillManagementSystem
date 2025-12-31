@@ -40,7 +40,7 @@ updates efficiently.
       <strong> Main Menu </strong>
     </div>
     
-    <img src="src/screenshots/mainmenu.png" width="700" height="394">
+  <img src="src/screenshots/mainmenu.png" width="700" height="394">
   </div>
 
   <!-- Discount -->
@@ -58,7 +58,7 @@ updates efficiently.
      <strong>Discount </strong>
      </div>
     
-    <img src="src/screenshots/applydiscount.png" width="700" height="394">
+  <img src="src/screenshots/applydiscount.png" width="700" height="394">
   </div>
 
   <!-- Fine -->
@@ -76,7 +76,7 @@ updates efficiently.
        <strong> Fine </strong>
     </div>
     
-    <img src="src/screenshots/fine.png" width="700" height="394">
+   <img src="src/screenshots/fine.png" width="700" height="394">
   </div>
 
   <!-- Pay Bill -->
@@ -94,7 +94,7 @@ updates efficiently.
       <strong> Pay Bill </strong>
     </div>
     
-    <img src="src/screenshots/paybill.png" width="700" height="394">
+   <img src="src/screenshots/paybill.png" width="700" height="394">
   </div>
 
   <!-- Revenue -->
@@ -112,7 +112,7 @@ updates efficiently.
        <strong> Revenue </strong>
     </div>
     
-    <img src="src/screenshots/revenue.png" width="700" height="394">
+   <img src="src/screenshots/revenue.png" width="700" height="394">
   </div>
 
   <!-- Update Taxes -->
@@ -130,7 +130,7 @@ updates efficiently.
      <strong>Update Taxes </strong>
     </div>
     
-    <img src="src/screenshots/taxes.png" width="700" height="394">
+   <img src="src/screenshots/taxes.png" width="700" height="394">
   </div>
 
 </div>
@@ -151,7 +151,7 @@ updates efficiently.
        <strong>Generate Bill </strong>
       
     </div>
-    <img src="src/screenshots/generatebill.png" width="420" height="750">
+  <img src="src/screenshots/generatebill.png" width="420" height="750">
   </div>
 </div>
 
