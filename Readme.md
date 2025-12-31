@@ -37,7 +37,7 @@ updates efficiently.
       font-weight: bold;
       border-radius: 4px;
     ">
-      ** Main Menu **
+       Main Menu <br>
     </div>
     <img src="src/screenshots/mainmenu.png" width="700" height="394">
   </div>
@@ -54,7 +54,7 @@ updates efficiently.
       font-weight: bold;
       border-radius: 4px;
     ">
-      ** Discount **
+      Discount <br>
     </div>
     <img src="src/screenshots/applydiscount.png" width="700" height="394">
   </div>
@@ -71,7 +71,7 @@ updates efficiently.
       font-weight: bold;
       border-radius: 4px;
     ">
-      ** Fine **
+       Fine <br>
     </div>
     <img src="src/screenshots/fine.png" width="700" height="394">
   </div>
@@ -88,7 +88,7 @@ updates efficiently.
       font-weight: bold;
       border-radius: 4px;
     ">
-      ** Pay Bill **
+       Pay Bill <br>
     </div>
     <img src="src/screenshots/paybill.png" width="700" height="394">
   </div>
@@ -105,7 +105,7 @@ updates efficiently.
       font-weight: bold;
       border-radius: 4px;
     ">
-      ** Revenue **
+       Revenue <br>
     </div>
     <img src="src/screenshots/revenue.png" width="700" height="394">
   </div>
@@ -122,7 +122,7 @@ updates efficiently.
       font-weight: bold;
       border-radius: 4px;
     ">
-      ** Update Taxes **
+     Update Taxes <br>
     </div>
     <img src="src/screenshots/taxes.png" width="700" height="394">
   </div>
@@ -142,7 +142,8 @@ updates efficiently.
       font-weight: bold;
       border-radius: 4px;
     ">
-      ** Generate Bill **
+       Generate Bill 
+      <br>
     </div>
     <img src="src/screenshots/generatebill.png" width="420" height="750">
   </div>
