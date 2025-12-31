@@ -22,26 +22,138 @@ updates efficiently.
 
 ## Screenshots
 
-** Main Menu **
-<img src="src/screenshots/mainmenu.png" alt="Main Menu" width="800" height="450" />
+<!-- LANDSCAPE GRID -->
+<div style="
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  justify-items: center;
+  margin-bottom: 40px;
+">
 
-** Generate Bill **
-<img src="src/screenshots/generatebill.png" alt="Generate Bill" width="450" height="800" />
+  <!-- Main Menu -->
+  <div style="position: relative; width: 800px;">
+    <div style="
+      position: absolute;
+      top: 10px;
+      left: 12px;
+      background: rgba(0,0,0,0.65);
+      color: white;
+      padding: 5px 10px;
+      font-weight: bold;
+      border-radius: 4px;
+    ">
+      ** Main Menu **
+    </div>
+    <img src="src/screenshots/mainmenu.png" width="800" height="450">
+  </div>
 
-** Discount **
-<img src="src/screenshots/applydiscount.png" alt="Discount" width="800" height="450" />
+  <!-- Discount -->
+  <div style="position: relative; width: 800px;">
+    <div style="
+      position: absolute;
+      top: 10px;
+      left: 12px;
+      background: rgba(0,0,0,0.65);
+      color: white;
+      padding: 5px 10px;
+      font-weight: bold;
+      border-radius: 4px;
+    ">
+      ** Discount **
+    </div>
+    <img src="src/screenshots/applydiscount.png" width="800" height="450">
+  </div>
 
-** Fine **
-<img src="src/screenshots/fine.png" alt="Fine" width="800" height="450" />
+  <!-- Fine -->
+  <div style="position: relative; width: 800px;">
+    <div style="
+      position: absolute;
+      top: 10px;
+      left: 12px;
+      background: rgba(0,0,0,0.65);
+      color: white;
+      padding: 5px 10px;
+      font-weight: bold;
+      border-radius: 4px;
+    ">
+      ** Fine **
+    </div>
+    <img src="src/screenshots/fine.png" width="800" height="450">
+  </div>
 
-** Pay Bill **
-<img src="src/screenshots/paybill.png" alt="Pay Bill" width="800" height="450" />
+  <!-- Pay Bill -->
+  <div style="position: relative; width: 800px;">
+    <div style="
+      position: absolute;
+      top: 10px;
+      left: 12px;
+      background: rgba(0,0,0,0.65);
+      color: white;
+      padding: 5px 10px;
+      font-weight: bold;
+      border-radius: 4px;
+    ">
+      ** Pay Bill **
+    </div>
+    <img src="src/screenshots/paybill.png" width="800" height="450">
+  </div>
 
-** Revenue **
-<img src="src/screenshots/revenue.png" alt="Revenue" width="800" height="450" />
+  <!-- Revenue -->
+  <div style="position: relative; width: 800px;">
+    <div style="
+      position: absolute;
+      top: 10px;
+      left: 12px;
+      background: rgba(0,0,0,0.65);
+      color: white;
+      padding: 5px 10px;
+      font-weight: bold;
+      border-radius: 4px;
+    ">
+      ** Revenue **
+    </div>
+    <img src="src/screenshots/revenue.png" width="800" height="450">
+  </div>
 
-** Update Taxes **
-<img src="src/screenshots/taxes.png" alt="Update Taxes" width="800" height="450" />
+  <!-- Update Taxes -->
+  <div style="position: relative; width: 800px;">
+    <div style="
+      position: absolute;
+      top: 10px;
+      left: 12px;
+      background: rgba(0,0,0,0.65);
+      color: white;
+      padding: 5px 10px;
+      font-weight: bold;
+      border-radius: 4px;
+    ">
+      ** Update Taxes **
+    </div>
+    <img src="src/screenshots/taxes.png" width="800" height="450">
+  </div>
+
+</div>
+
+<!-- PORTRAIT CENTERED -->
+<div style="text-align: center; margin-bottom: 40px;">
+  <div style="display: inline-block; position: relative;">
+    <div style="
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(0,0,0,0.65);
+      color: white;
+      padding: 5px 10px;
+      font-weight: bold;
+      border-radius: 4px;
+    ">
+      ** Generate Bill **
+    </div>
+    <img src="src/screenshots/generatebill.png" width="450" height="800">
+  </div>
+</div>
+
 
 ## Project Structure
 ```
