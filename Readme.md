@@ -22,21 +22,15 @@ updates efficiently.
 
 ## Screenshots
 
-<!-- LANDSCAPE GRID -->
-<div style="
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
-  justify-items: center;
-  margin-bottom: 40px;
-">
+<!-- LANDSCAPE IMAGES -->
+<div style="width: 100%; text-align: center;">
 
   <!-- Main Menu -->
-  <div style="position: relative; width: 800px;">
+  <div style="position: relative; width: 700px; margin: 25px auto;">
     <div style="
       position: absolute;
       top: 10px;
-      left: 12px;
+      left: 10px;
       background: rgba(0,0,0,0.65);
       color: white;
       padding: 5px 10px;
@@ -45,15 +39,15 @@ updates efficiently.
     ">
       ** Main Menu **
     </div>
-    <img src="src/screenshots/mainmenu.png" width="800" height="450">
+    <img src="src/screenshots/mainmenu.png" width="700" height="394">
   </div>
 
   <!-- Discount -->
-  <div style="position: relative; width: 800px;">
+  <div style="position: relative; width: 700px; margin: 25px auto;">
     <div style="
       position: absolute;
       top: 10px;
-      left: 12px;
+      left: 10px;
       background: rgba(0,0,0,0.65);
       color: white;
       padding: 5px 10px;
@@ -62,15 +56,15 @@ updates efficiently.
     ">
       ** Discount **
     </div>
-    <img src="src/screenshots/applydiscount.png" width="800" height="450">
+    <img src="src/screenshots/applydiscount.png" width="700" height="394">
   </div>
 
   <!-- Fine -->
-  <div style="position: relative; width: 800px;">
+  <div style="position: relative; width: 700px; margin: 25px auto;">
     <div style="
       position: absolute;
       top: 10px;
-      left: 12px;
+      left: 10px;
       background: rgba(0,0,0,0.65);
       color: white;
       padding: 5px 10px;
@@ -79,15 +73,15 @@ updates efficiently.
     ">
       ** Fine **
     </div>
-    <img src="src/screenshots/fine.png" width="800" height="450">
+    <img src="src/screenshots/fine.png" width="700" height="394">
   </div>
 
   <!-- Pay Bill -->
-  <div style="position: relative; width: 800px;">
+  <div style="position: relative; width: 700px; margin: 25px auto;">
     <div style="
       position: absolute;
       top: 10px;
-      left: 12px;
+      left: 10px;
       background: rgba(0,0,0,0.65);
       color: white;
       padding: 5px 10px;
@@ -96,15 +90,15 @@ updates efficiently.
     ">
       ** Pay Bill **
     </div>
-    <img src="src/screenshots/paybill.png" width="800" height="450">
+    <img src="src/screenshots/paybill.png" width="700" height="394">
   </div>
 
   <!-- Revenue -->
-  <div style="position: relative; width: 800px;">
+  <div style="position: relative; width: 700px; margin: 25px auto;">
     <div style="
       position: absolute;
       top: 10px;
-      left: 12px;
+      left: 10px;
       background: rgba(0,0,0,0.65);
       color: white;
       padding: 5px 10px;
@@ -113,15 +107,15 @@ updates efficiently.
     ">
       ** Revenue **
     </div>
-    <img src="src/screenshots/revenue.png" width="800" height="450">
+    <img src="src/screenshots/revenue.png" width="700" height="394">
   </div>
 
   <!-- Update Taxes -->
-  <div style="position: relative; width: 800px;">
+  <div style="position: relative; width: 700px; margin: 25px auto;">
     <div style="
       position: absolute;
       top: 10px;
-      left: 12px;
+      left: 10px;
       background: rgba(0,0,0,0.65);
       color: white;
       padding: 5px 10px;
@@ -130,14 +124,14 @@ updates efficiently.
     ">
       ** Update Taxes **
     </div>
-    <img src="src/screenshots/taxes.png" width="800" height="450">
+    <img src="src/screenshots/taxes.png" width="700" height="394">
   </div>
 
 </div>
 
-<!-- PORTRAIT CENTERED -->
-<div style="text-align: center; margin-bottom: 40px;">
-  <div style="display: inline-block; position: relative;">
+<!-- PORTRAIT IMAGE -->
+<div style="width: 100%; text-align: center; margin-top: 40px;">
+  <div style="position: relative; width: 420px; margin: 0 auto;">
     <div style="
       position: absolute;
       top: 10px;
@@ -150,9 +144,10 @@ updates efficiently.
     ">
       ** Generate Bill **
     </div>
-    <img src="src/screenshots/generatebill.png" width="450" height="800">
+    <img src="src/screenshots/generatebill.png" width="420" height="750">
   </div>
 </div>
+
 
 
 ## Project Structure
