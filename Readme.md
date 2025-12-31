@@ -1,169 +1,50 @@
-# Welcome to Electricity Bill Management System
-The Electricity Bill Management System is a JavaFX-based application designed to 
-simplify and automate electricity billing operations. It allows users to generate
-bills using consumer details and meter readings, apply dynamic discounts, fines 
-for late payments and adjustable tax rates and update the payment status of each
-bill. All billing data is stored in a structured file, making it lightweight and 
-easy to manage. The system includes separate Java classes such as Payment, 
-Discount and Fine, each following Object-Oriented Programming (OOP) principles to
-ensure modularity and maintainability. The user interface is built with JavaFX 
-components like ComboBoxes, TextFields and Buttons which provides an intuitive 
-and interactive experience for managing billing records and viewing revenue 
-updates efficiently.
+# Electricity Bill Management System
+
+The **Electricity Bill Management System** is a JavaFX-based application designed to simplify and automate electricity billing operations. It allows users to generate bills using consumer details and meter readings, apply dynamic discounts, fines for late payments, and adjustable tax rates, and update the payment status of each bill. 
+
+All billing data is stored in a structured file, making it lightweight and easy to manage. The system includes separate Java classes such as `Payment`, `Discount`, and `Fine`, each following Object-Oriented Programming (OOP) principles to ensure modularity and maintainability. The user interface is built with JavaFX components like ComboBoxes, TextFields, and Buttons, providing an intuitive and interactive experience for managing billing records and viewing revenue updates efficiently.
 
 ## Features
-- Bill generation using user CNIC, name, address, category and meter readings.
-- Dynamic application of discounts, fines (for late payments), and customizable tax rates.
-- Payment status update functionality with real-time revenue calculation.
-- JavaFX-based responsive user interface with ComboBoxes, TextFields, and Buttons.
-- Modular OOP structure with separate classes (Payment, Discount, Fine) for clean logic separation.
-- Scalable and maintainable codebase suitable for academic or lightweight commercial use.
 
+* **Bill Generation:** Create bills using user CNIC, name, address, category, and meter readings.
+* **Dynamic Calculations:** Application of discounts, fines (for late payments), and customizable tax rates.
+* **Payment Tracking:** Status update functionality with real-time revenue calculation.
+* **Responsive UI:** JavaFX-based interface with intuitive controls.
+* **OOP Design:** Modular structure with separate classes (`Payment`, `Discount`, `Fine`) for clean logic separation.
+* **Scalability:** Maintainable codebase suitable for academic or lightweight commercial use.
 
 ## Screenshots
 
-<!-- LANDSCAPE IMAGES -->
-<div style="width: 100%; text-align: center;">
+### Main Menu
+<img src="src/screenshots/mainmenu.png" width="700" alt="Main Menu">
 
-  <!-- Main Menu -->
-  <div style="position: relative; width: 700px; margin: 25px auto;">
-    <div style="
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      background: rgba(0,0,0,0.65);
-      color: white;
-      padding: 5px 10px;
-      font-weight: bold;
-      border-radius: 4px;
-    ">
-      <strong> Main Menu </strong>
-    </div>
-    
-  <img src="src/screenshots/mainmenu.png" width="700" height="394">
-  </div>
+### Discount
+<img src="src/screenshots/applydiscount.png" width="700" alt="Apply Discount">
 
-  <!-- Discount -->
-  <div style="position: relative; width: 700px; margin: 25px auto;">
-    <div style="
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      background: rgba(0,0,0,0.65);
-      color: white;
-      padding: 5px 10px;
-      font-weight: bold;
-      border-radius: 4px;
-    ">
-     <strong>Discount </strong>
-     </div>
-    
-  <img src="src/screenshots/applydiscount.png" width="700" height="394">
-  </div>
+### Fine
+<img src="src/screenshots/fine.png" width="700" alt="Apply Fine">
 
-  <!-- Fine -->
-  <div style="position: relative; width: 700px; margin: 25px auto;">
-    <div style="
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      background: rgba(0,0,0,0.65);
-      color: white;
-      padding: 5px 10px;
-      font-weight: bold;
-      border-radius: 4px;
-    ">
-       <strong> Fine </strong>
-    </div>
-    
-   <img src="src/screenshots/fine.png" width="700" height="394">
-  </div>
+### Pay Bill
+<img src="src/screenshots/paybill.png" width="700" alt="Pay Bill">
 
-  <!-- Pay Bill -->
-  <div style="position: relative; width: 700px; margin: 25px auto;">
-    <div style="
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      background: rgba(0,0,0,0.65);
-      color: white;
-      padding: 5px 10px;
-      font-weight: bold;
-      border-radius: 4px;
-    ">
-      <strong> Pay Bill </strong>
-    </div>
-    
-   <img src="src/screenshots/paybill.png" width="700" height="394">
-  </div>
+### Revenue
+<img src="src/screenshots/revenue.png" width="700" alt="Revenue">
 
-  <!-- Revenue -->
-  <div style="position: relative; width: 700px; margin: 25px auto;">
-    <div style="
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      background: rgba(0,0,0,0.65);
-      color: white;
-      padding: 5px 10px;
-      font-weight: bold;
-      border-radius: 4px;
-    ">
-       <strong> Revenue </strong>
-    </div>
-    
-   <img src="src/screenshots/revenue.png" width="700" height="394">
-  </div>
+### Update Taxes
+<img src="src/screenshots/taxes.png" width="700" alt="Update Taxes">
 
-  <!-- Update Taxes -->
-  <div style="position: relative; width: 700px; margin: 25px auto;">
-    <div style="
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      background: rgba(0,0,0,0.65);
-      color: white;
-      padding: 5px 10px;
-      font-weight: bold;
-      border-radius: 4px;
-    ">
-     <strong>Update Taxes </strong>
-    </div>
-    
-   <img src="src/screenshots/taxes.png" width="700" height="394">
-  </div>
+### Generate Bill
+<img src="src/screenshots/generatebill.png" width="420" alt="Generate Bill">
 
-</div>
-
-<!-- PORTRAIT IMAGE -->
-<div style="width: 100%; text-align: center; margin-top: 40px;">
-  <div style="position: relative; width: 420px; margin: 0 auto;">
-    <div style="
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      background: rgba(0,0,0,0.65);
-      color: white;
-      padding: 5px 10px;
-      font-weight: bold;
-      border-radius: 4px;
-    ">
-       <strong>Generate Bill </strong>
-      
-  </div>
-  <img src="src/screenshots/generatebill.png" width="420" height="750">
-  </div>
-
-
-
+<br>
 
 ## Project Structure
-```
- ElectrictyBillManagementSystem/            (This is your main project root)
-    ├── .idea/                                 (Module-specific IntelliJ configuration)
-    │  
-    ├── src/                                   (Source code folder)
-    │   ├── main/                              (Main source code and resources)
+
+```text
+ElectrictyBillManagementSystem/             (This is your main project root)
+    ├── .idea/                              (Module-specific IntelliJ configuration)
+    ├── src/                                (Source code folder)
+    │   ├── main/                           (Main source code and resources)
     │   │   ├── java/
     │   │   │   └── com/
     │   │   │       └── example/
@@ -186,24 +67,21 @@ updates efficiently.
     │   │   │               └── TaxesController.java
     │   │   └── module-info.java
     │   │
-    │   └── resources/                         (FXML and other resources)
+    │   └── resources/                      (FXML and other resources)
     │
-    ├── screenshots/                           (Your screenshots folder)
-    ├── Readme.md                              (Your main Readme file)
-    ├── .gitignore                             (Git ignore file for project)
-    ├── mvnw                                   (Maven Wrapper script for Linux/macOS)
-    ├── mvnw.cmd                               (Maven Wrapper script for Windows)
-    └── pom.xml                                (Maven Project Object Model file)
- ```
-
+    ├── screenshots/                        (Screenshots folder)
+    ├── Readme.md                           (Your main Readme file)
+    ├── .gitignore                          (Git ignore file)
+    ├── mvnw                                (Maven Wrapper script for Linux/macOS)
+    ├── mvnw.cmd                            (Maven Wrapper script for Windows)
+    └── pom.xml                             (Maven Project Object Model file)
+```
 ## Technologies Used
-- **Language**: Java 17
-- **Framework**: JavaFX
-- **Styling**: JavaFX
-- **Build Tool**: Maven
-- **OOP Concepts**: Encapsulation, Association, Inheritance, Enumeration
-
-# Demo4 JavaFX Project
+- **Language:** Java 17
+- **Framework:** JavaFX
+- **Styling:** JavaFX CSS
+- **Build Tool:** Maven
+- **OOP Concepts:** Encapsulation, Association, Inheritance, Enumeration
 
 ## Running the Project
 
@@ -212,23 +90,28 @@ updates efficiently.
 - JavaFX library set up in your environment
 
 ### Steps to Run
-1. Open a terminal and navigate to the project folder:
+
+1. **Open a terminal and navigate to the project folder**
    ```bash
-  cd path/to/project/src/main/java/com/example/demo4/
-  
-  
-## Compile the application
-'''bash
+   cd path/to/project/src/main/java/com/example/demo4/
+   ```
+ 2. **Compile the application**
+
+> **Note:** Replace `/path/to/javafx/lib` with the actual path where JavaFX is installed on your machine.
+
+```bash
 javac --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml HelloApplication.java
-Replace /path/to/javafx/lib with the path where JavaFX is installed
+```
+ 3. **Run the application**
 
-## Run the application
-'''bash
+```bash 
+
 java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml HelloApplication
-
+```
 
 ## Contributing
-I welcome contributions to enhance Electrity Bill Management System. Here's how you can help:
+I welcome contributions to enhance the Electricity Bill Management System. Here's how you can help:
+
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/your-feature`).
 3. Make your changes and commit them (`git commit -m "Add your message"`).
@@ -238,5 +121,5 @@ I welcome contributions to enhance Electrity Bill Management System. Here's how 
 Please ensure your code follows the existing style.
 
 ## Contact
-- **Author**: Najmul Arifeen
-- **GitHub**: [https://github.com/najmularifeen](https://github.com/najmularifeen)
+- **Author:** Najmul Arifeen
+- **GitHub:** [https://github.com/najmularifeen786](https://github.com/najmularifeen786)
